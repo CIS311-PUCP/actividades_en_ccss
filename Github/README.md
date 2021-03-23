@@ -1,17 +1,19 @@
 # CIS311 : Actividades en Ciencias Sociales
-## Sesión 1 : Cómo utilizar Github
+## Sesión 1 : Cómo utilizar Github   <sup>[1](#myfootnote1)</sup>
 
-### Antes de empezar, asegúrense de tener lo siguiente!
+### Antes de empezar, ¡asegúrense de tener lo siguiente!
 
-1. Ya tienen una cuenta en Github ? Si no, crea una en https://github.com/join (Bonus: si usan su email @pucp, postulen a https://education.github.com/students para obtener una cuenta Pro)
+1. ¿Ya tienen una cuenta en Github ? Si no, crea una en https://github.com/join (Bonus: si usan su email @pucp, postulen a https://education.github.com/students para obtener una cuenta Pro)
 2. Mándame tu nombre de usuario a csolisu@pucp.edu.pe
-3. Ya tienes instalado Github Desktop ? En caso no lo tengas, ve a https://desktop.github.com/ e instálalo. 
-4. Has iniciado sesión en Github Desktop? En caso no, inicia sesión con tu cuenta creada. 
+3. ¿Ya tienes instalado Github Desktop ? En caso no lo tengas, ve a https://desktop.github.com/ e instálalo. 
+4. ¿Has iniciado sesión en Github Desktop? En caso no, inicia sesión con tu cuenta creada. 
 5. Has sido invitadx al repo https://github.com/CIS311-PUCP/letras_canciones
-6. Has aceptado la invitación al repo ? 
-7. Tienen un editor de texto instalado ?  
-7.1 En windows, puede ser notepad, en mac, el textedit 
+6. ¿Has aceptado la invitación al repo ? 
+7. ¿Tienen un editor de texto instalado ?  
+7.1 En windows, puede ser notepad, en mac, el textedit   
 7.2 En general, el mejor editor de texto es Sublime https://www.sublimetext.com/
+
+<a name="myfootnote1">1</a> Este material se basa fuertemente en los entrenamientos de [DIME](https://github.com/worldbank/dime-github-trainings), del World Bank. Gracias por la licencia MIT!
 
 ### Cómo usar Github
 
@@ -23,7 +25,7 @@ Los objetivos de aprendizaje de hoy serán:
 - Realizar cambios y mejoras al proyecto, y poder subir esos cambios. 
 - Crear mi propio proyecto!
 
-### Qué es un contribuidor? 
+### ¿Qué es un contribuidor? 
 
 >> Básicamente alguien que contribuye con código a un repositorio (repo). 
 Entiende y sigue instrucciones del administrador del repo.  
@@ -33,7 +35,7 @@ Entiende y sigue instrucciones del administrador del repo.
 
 <img src="./img/phdcomics.png" alt="drawing" width="400" />
 
-- E inclusive del "Documento_final_final_finalisimo.docx"
+- E inclusive del "Documento_final_final_finalísimo.docx"
 
 - Nuestra solución común es llamar al documento 
     - Paper_for_review_csu_200321.docx
@@ -64,16 +66,15 @@ La diferencia entre clonar y descargar es que **Github recuerda de dónde descar
 Finalmente, explora el folder clonado! Compáralo con lo que viste en Github. 
 
 
+## 2. Commit 
 
-### 2. Commit 
-
-- Qué es un control de versiones? 
+- ¿Qué es un control de versiones? 
 
 Por ejemplo, miremos al control de versiones que tiene un google doc: 
 
 <img src="./img/version_control_drive.png" alt="drawing" width="400" />
 
-Todas las versiones de este documento están almacenadas. Se pueden ver los cambios que hizo cada contribuidora al documento. Sin embargo, Google docs almacena todas las versiones!!!
+Todas las versiones de este documento están almacenadas. Se pueden ver los cambios que hizo cada contribuidora al documento. Sin embargo, Google docs almacena todas las versiones!
 
 Para no tener que guardar todas estas versiones, Git  **usa los commits para indicar las differencias significativas entre versión y version**
 
@@ -81,13 +82,13 @@ Cada commit es una captura de los archivos del proyecto en determinado momento, 
 
 Cada commit tiene un timestamp (dentro de este ya tiene un id que incluye fecha y hora)
 
-#### Cómo hacer un commit ? 
+#### ¿Cómo hacer un commit ? 
 Antes de hacer un commit, necesitamos saber sobre los branches, por ahora les mostraré cómo hacer un commit. 
 
 - Creé un nuevo archivo .txt llamado lyrics en mi folder clonado. 
 - Usé github desktop para hacer commit al repo. 
 - Confirmen que ven el archivo
-- Ven el sync en Github Desktop ?
+- ¿Ven el sync en Github Desktop ?
 
 Ahora podemos empezar a explorar el repo https://github.com/CIS311-PUCP/letras_canciones
 
@@ -99,14 +100,14 @@ https://github.com/CIS311-PUCP/letras_canciones/commits
 
 </br>
 
-OJO 2: Ven que hice un pull ???
+OJO 2: ¿Ven que hice un pull ???
+
+## 3. Branch 
 
 
-### 3. Branch
+- Los branches son la propiedad "killer"/genial de Git. Esto hace a Git una herramienta poderosa de colaboración y no solo de control de versiones.
 
-- Los branches son la propiedad "killer"/genial de Git. Esto hace a Git una herramienta poderosa de colaboración y no solo de control de versiones! 
-
-- Los branches **permiten crear una copia del código donde puedes experimentar/jugar** con él. Si te gusta el resultado, **puedes mergear el experimento a la versión principal** 
+- Los branches **permiten crear una copia del código donde puedes experimentar/jugar** con él. Si te gusta el resultado, **puedes mergear el experimento a la versión principal**.
 
 - Esta versión no-lineal es más fidedigna a cómo se trabaja en la vida real. 
 
@@ -114,11 +115,11 @@ OJO 2: Ven que hice un pull ???
 
 ## Explorando branches
 
-Puedes cambiar la rama en */commits*, qué sucede cuando cambias la rama allí ?
+¿Puedes cambiar la rama en */commits*, qué sucede cuando cambias la rama allí ?
 
 Cual es la versión clonada en tu computadora? Cuando se clona un repo **todas las versiones** son clonadas, pero **solo una** es la que se muestra en nuestra carpeta. 
 
-Hagan la prueba de cambiar la rama, en https://github.com/CIS311-PUCP/letras_canciones/, cambia acaso el contenido? 
+Hagan la prueba de cambiar la rama, en https://github.com/CIS311-PUCP/letras_canciones/, ¿cambia acaso el contenido? 
 
 
 Un flujo de trabajo típico en Git implica tener varias ramas. Hay otras herramientas en Github qhe vuelve este flujo de trabajo muy manejable, sin embargo, está fuera del alcance de hoy. 
@@ -129,9 +130,9 @@ Un flujo de trabajo típico en Git implica tener varias ramas. Hay otras herrami
 
 - Escribe tu nombre "nombre_apellido" en el cuadro de diálogo y dale click para crear la branch. 
 
-### Combinando el commit y el branch 
+## Combinando el commit y el branch 
 
-### Ahora quiero que colabores en el repo de la clase!
+### ¡Ahora quiero que colabores en el repo de la clase!
 
 1. Asegúrate de que tu rama aparezca en GitHub Desktop. Sitúate en ella. Esto significa que esta rama está checkeada (checked out).
 
@@ -175,7 +176,7 @@ Es común que el acceso a la rama *main* solo la tenga el repo maintainer (no to
 
 ## PARA TERMINAR
 
-### Y ahora cómo creo mis propios repos???
+### ¿¿¿ Y ahora cómo creo mis propios repos???
 
 Usualmente, Github servirá para almacenar proyectos individuales. Reordenando los pasos aprendidos a lo largo de este tutorial, podemos crear nuestros propios repos!
 
@@ -200,13 +201,16 @@ Tambien tenemos otras opciones, como agregar una descripción del repo, volverlo
 
 6. Listo, ya tienes un folder asociado a un repo en tu computadora. Intenta hacer tu primer commit y verifica que 
 
-OJO: NO OLVIDEN DE HACER COMMIT CONSTANTEMENTE A SU TRABAJO!!! 
+OJO: NO OLVIDEN DE HACER COMMIT CONSTANTEMENTE A SU TRABAJO!!!   
 OJO 2: NO OLVIDEN SINCRONIZAR DESPUES DE HACER COMMIT!!!
-
+<br> <br/>
 ## Otros recursos de aprendizaje: 
 
 ### Aprender Github desde el command line: 
 
+- En este tutorial, hemos lo visto los elementos esenciales para utilizar Github, sin embargo, hay una forma de usar Github desde la consola. Aquí hay una lista de referencias en caso quieran explorar más este uso. 
+
+https://education.github.com/git-cheat-sheet-education.pdf
 
 
-- En este tutorial, hemos lo visto los elementos esenciales para utilizar Github. 
+
