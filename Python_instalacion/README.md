@@ -95,7 +95,7 @@ Listo! Ya tenemos todos los paquetes que necesitamos.
 
 <img src="./img/path_example.jpeg" alt="drawing" width="400" />
 
-- El comando ``` cd``` significa cambiar directorio (change directory). Noten que el ```cd``` puede utilizarse progresivamente (carpeta por carpeta), pues primero fui a Github Folders y luego a EC2. Abajo colocaré un cuadro con otros comandos útiles. 
+- El comando ``` cd``` significa cambiar directorio (change directory). Noten que el ```cd``` puede utilizarse progresivamente (carpeta por carpeta), pues primero fui a Github Folders y luego a EC2. Al final de este README colocaré un cuadro con otros comandos útiles. 
 
 ---
 **CONSEJO**: traten de llamar a sus directorios sin espacios, en este caso, Github_Folders en vez de Github Folders, ya que los encuentra más rapido.   
@@ -122,6 +122,17 @@ Listo! Ya abrimos nuestro Jupyter notebook :) , ya podemos empezar a escribir c�
 ---
 ### Qué hacer si cerramos nuestro JN de casualidad de nuestro navegador? 
 
-Para poder abrir de nuevo el JN, aparecerá una URL similar a la resaltada en rosado en el command prompt. Tan sólo copien el URL señalado en rosado que les aparecerá en su ventana una vez abierto el JN, y listo, pueden proceder con su trabajo. 
+Para poder abrir de nuevo el JN, aparecerá una URL similar a la resaltada en rosado en el ejemplo de arriba en el command prompt. Tan sólo copien el URL señalado en rosado que les aparecerá en su ventana una vez abierto el JN, y listo, pueden proceder con su trabajo. 
 
 ---
+
+---
+### Otros comandos útiles
+Hasta ahora hemos usado el comando ```cd``` dentro del anaconda prompt para dirigirnos a nuestro directorio(folder/carpeta) de interés.  Aquí detallo unos cuantos comandos adicionales que ayudarán a navegar por los directorios eficientemente. 
+
+``` cd .. ``` (noten los 2 puntos) sirve para ir al parent directory (o el directorio que contiene a nuestro actual directorio). Por ejemplo, en  ```C:\Users\Mara\GitHub Folders\EC2```, GitHub Folders es el parent directory de EC2.   
+```dir ``` sirve para listar todos los directorios y archivos dentro del directorio en el que nos encontramos.   
+``` echo %cd% ``` sirve para ver el actual path en el que nos encontramos. 
+
+---
+
