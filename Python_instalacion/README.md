@@ -101,3 +101,28 @@ Listo! Ya tenemos todos los paquetes que necesitamos.
 
 
 Listo! Ya abrimos nuestro Jupyter notebook :) , ya podemos empezar a escribir código!
+
+
+## Instrucciones adicionales para abrir el Jupyter Notebook (JN) en la carpeta de nuestro proyecto. 
+
+Ya que estaremos abriendo el JN desde la consola de nuestro Anaconda Prompt, este se abrirá en la carpeta en la que se sitúa nuestro anaconda prompt por default. Para situar nuestro JN en donde querramos, haremos lo siguiente:
+
+
+- Abre una ventana del anaconda prompt. Asegúrate que diga ``` (base) ```.
+- Tipea ``` cd path```, siendo el path, en el caso de la imagen siguiente, ```C:\Users\Mara\GitHub Folders\EC2 ``` . El comando ``` cd``` significa cambiar directorio (change directory). Noten que el ```cd``` puede utilizarse progresivamente (carpeta por carpeta), pues primero fui a Github Folders y luego a EC2. (**CONSEJO**: traten de llamar a sus directorios sin espacios, en este caso, Github_Folders en vez de Github Folders, ya que los encuentra más rapido). 
+(**CONSEJO 2**: si te equivocaste de carpeta, siempre puedes regresar al lugar original colocando ```cd``` sin ningún path adicional). 
+
+
+<img src="./img/path_example.jpeg" alt="drawing" width="400" />
+
+- Tipea ``` jupyter notebook ```
+
+¡Y listo!, se aplican los mismos pasos que en la sección de cómo abrir Python.
+
+**ADVERTENCIA!** **recuerden no cerrar el Anaconda prompt** en donde tienen la sesión de JN corriendo, ya que esto cerrará el trabajo que están avanzando.
+
+### Qué hacer si cerramos nuestro JN de casualidad de nuestro navegador? 
+
+Para poder abrir de nuevo el JN, tan sólo copien el URL señalado en rosado (en la imagen) que les aparecerá en su ventana una vez abierto el JN.
+ 
+
